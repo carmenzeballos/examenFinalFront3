@@ -1,0 +1,82 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  align-items: center;
+}
+
+.button-class {
+  margin: 5px;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #1877f2;
+  border: 3px solid #1877f2;
+  width: 40px; 
+  transition: transform 0.3s ease; 
+  border-radius: 10px;
+}
+
+.facebook:hover{
+  transform: scale(1.2);
+}
+
+.insta {
+  background-color: #e7472e;
+  border: 3px solid #e1522e;
+  width: 40px; 
+  transition: transform 0.3s ease; 
+  border-radius: 10px;
+}
+
+.insta:hover{
+  transform: scale(1.2);
+}
+
+.tiktok {
+  background-color: #207976;
+  border: 3px solid #0baca4;
+  width: 40px; 
+  transition: transform 0.3s ease; 
+  border-radius: 10px;
+}
+
+.tiktok:hover{
+  transform: scale(1.2);
+}
+
+.wpp {
+  background-color: #1bd741;
+  border: 3px solid #1bd741;
+  width: 40px; 
+  transition: transform 0.3s ease; 
+  border-radius: 10px;
+}
+
+.wpp:hover{
+  transform: scale(1.2);
+}
+
+.images img {
+  width: 40px;
+  margin: 30px;
+}
+
+.info-footer {
+  display: flex;
+  gap: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}
+
+.nombre {
+  font-family: "Montserrat", sans-serif; /* Cambia la fuente a Montserrat */
+  text-align: center;
+  color: rgba(45, 216, 74, 0.674);
+  font-size: 1.1rem;
+}

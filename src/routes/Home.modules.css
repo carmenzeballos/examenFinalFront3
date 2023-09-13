@@ -1,0 +1,26 @@
+.home {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #f3f3f3; 
+}
+
+.card-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.bienvenido {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #538b1f;
+  margin-top: 20px;
+}
+
+hr {
+  border: 1px solid #a4ea8d;
+  margin: 20px 0; 
+}
